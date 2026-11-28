@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-11-28T17:45:01Z",
+  "generated_at": "2026-11-28T18:46:18Z",
   "pipeline": "tesseract rus+eng + нечёткое совпадение Алмалы/Almaly + заливка фона",
   "summary": {
     "images": 625,
-    "removed": 386,
-    "no_brand": 236,
+    "removed": 387,
+    "no_brand": 235,
     "uncertain": 3,
     "errors": 0,
-    "needs_review": 9,
+    "needs_review": 11,
     "models": 74
   },
-  "summary_ru": "Моделей: 74. Кадров потока A: 625. Название бренда стёрто: 386. Надписи не было: 236. Нужна ручная проверка: 9. Ошибок скачивания/OCR: 0.",
+  "summary_ru": "Моделей: 74. Кадров потока A: 625. Название бренда стёрто: 387. Надписи не было: 235. Нужна ручная проверка: 11. Ошибок скачивания/OCR: 0.",
   "images": [
     {
       "art": "VHF600007",
@@ -318,32 +318,32 @@
       "source_sha256": "724f31a5f24d4e1da4fd7e1fbd8c99a873e72f75e56fc24ff43046138dc80806",
       "hits": [
         {
-          "text": "АЛМАЛЫ",
-          "score": 100.0,
-          "conf": 38.0,
-          "x": 155,
-          "y": 1367,
-          "w": 334,
-          "h": 33
+          "text": "АЛМАЛ",
+          "score": 90.0,
+          "conf": 56.0,
+          "x": 215,
+          "y": 1371,
+          "w": 240,
+          "h": 41
         }
       ],
       "unsure": [
         {
-          "text": "АЛМАЛ EES",
+          "text": "АЛМАЛ АЛМАЛ",
           "score": 83.3,
-          "conf": 39.0,
+          "conf": 56.0,
           "x": 215,
           "y": 1371,
           "w": 240,
           "h": 41
         },
         {
-          "text": "АЛМАЛ EES АЛМАЛ",
+          "text": "АЛМАЛ АЛМАЛ AMA",
           "score": 83.3,
-          "conf": 39.0,
+          "conf": 37.0,
           "x": 215,
           "y": 1371,
-          "w": 240,
+          "w": 505,
           "h": 41
         },
         {
@@ -357,10 +357,10 @@
         }
       ],
       "status": "removed",
-      "review": false,
+      "review": true,
       "output": "clean/VHF600007/08.jpg",
-      "sha256": "e5abf361a869661ca7b5124e11c6c7cc60dfe046ee2107e44fc70af59b4f308d",
-      "size_bytes": 399560,
+      "sha256": "a2c36c818eb734738786180b671039f1b2c85e41832666bf4f9139a855730ba4",
+      "size_bytes": 399202,
       "thumb": "clean/VHF600007/08_t.jpg"
     },
     {
@@ -599,21 +599,21 @@
           "h": 14
         },
         {
-          "text": "eee os Sy АЛМАЛЫ",
+          "text": "АЛМАЛЫ КЕРАМИК",
           "score": 100.0,
-          "conf": 38.0,
-          "x": 28,
-          "y": 1325,
-          "w": 495,
-          "h": 49
+          "conf": 84.0,
+          "x": 397,
+          "y": 1332,
+          "w": 294,
+          "h": 20
         }
       ],
       "unsure": [],
       "status": "removed",
       "review": false,
       "output": "clean/VHF600085C/02.jpg",
-      "sha256": "5aa167515753dbbe6607ba0094472d486f0dbf527f951d44d23905b857200bc9",
-      "size_bytes": 236098,
+      "sha256": "e587a2c2839eeaca34e3eed874b29529338a72cbce594deb02152a924674f157",
+      "size_bytes": 242627,
       "thumb": "clean/VHF600085C/02_t.jpg"
     },
     {
@@ -686,13 +686,13 @@
       "source_sha256": "e7222f66ebdbde7106814b955c8cc6d1369ac850d53095d9ef91d4c1c648e9a2",
       "hits": [
         {
-          "text": "АЛМАЛЫ",
+          "text": "РЕШЕНИЯ АЛМАЛЫ",
           "score": 100.0,
           "conf": 92.0,
-          "x": 59,
+          "x": 57,
           "y": 33,
-          "w": 101,
-          "h": 14
+          "w": 103,
+          "h": 73
         },
         {
           "text": "АЛМАЛЫ",
@@ -718,8 +718,8 @@
       "status": "removed",
       "review": false,
       "output": "clean/VHF600085C/05.jpg",
-      "sha256": "b04f3c912a47264c35708b1c625a53b72542bf9e31c309098a2308b528a70da1",
-      "size_bytes": 280448,
+      "sha256": "f9b1d3d65860306e2a134f92b879fbdd84d8b97115354d5d029e074f6077aa43",
+      "size_bytes": 276279,
       "thumb": "clean/VHF600085C/05_t.jpg"
     },
     {
@@ -836,15 +836,6 @@
       "source_sha256": "3e183b9b082773278eb28af3edf0d8e588b9e63d50357f5c4d9a901bea4b671c",
       "hits": [
         {
-          "text": "АЛМАЛЫ КЕРАМИК",
-          "score": 100.0,
-          "conf": 92.0,
-          "x": 393,
-          "y": 1311,
-          "w": 300,
-          "h": 19
-        },
-        {
           "text": "АЛМАЛЫ",
           "score": 100.0,
           "conf": 92.0,
@@ -852,14 +843,23 @@
           "y": 33,
           "w": 99,
           "h": 13
+        },
+        {
+          "text": "АЛМАЛЫ",
+          "score": 100.0,
+          "conf": 91.0,
+          "x": 393,
+          "y": 1311,
+          "w": 130,
+          "h": 19
         }
       ],
       "unsure": [],
       "status": "removed",
       "review": false,
       "output": "clean/VHF600096/01.jpg",
-      "sha256": "d0cfd6e11f111a94138dcd590f473c87ca10f2ab4dbacb37dc76993ab8c06f15",
-      "size_bytes": 296496,
+      "sha256": "94ac94600e58ce9d584e5802c98e16ee8f8580392926ac093ce4544590ef8e98",
+      "size_bytes": 296474,
       "thumb": "clean/VHF600096/01_t.jpg"
     },
     {
@@ -882,7 +882,7 @@
         {
           "text": "АЛМАЛЫ",
           "score": 100.0,
-          "conf": 85.0,
+          "conf": 89.0,
           "x": 399,
           "y": 1327,
           "w": 126,
@@ -985,12 +985,12 @@
           "h": 13
         },
         {
-          "text": "АЛМАЛЫ КЕРАМИК",
+          "text": "АЛМАЛЫ",
           "score": 100.0,
           "conf": 89.0,
           "x": 420,
           "y": 1326,
-          "w": 250,
+          "w": 108,
           "h": 16
         }
       ],
@@ -998,8 +998,8 @@
       "status": "removed",
       "review": false,
       "output": "clean/VHF600096/05.jpg",
-      "sha256": "82823cd7cef28f625eca5a95a08d51a74e9ced31a1999d212a17b69c33c5ff8e",
-      "size_bytes": 390482,
+      "sha256": "0419ba4e7ecf69aab8cfb5d0e132798318230cd39f1acde652247836eecb7524",
+      "size_bytes": 390480,
       "thumb": "clean/VHF600096/05_t.jpg"
     },
     {
@@ -2477,7 +2477,44 @@
           "h": 34
         }
       ],
-      "unsure": [],
+      "unsure": [
+        {
+          "text": "AJ os МАЛ Ы-КЕРАМИК",
+          "score": 84.6,
+          "conf": 54.0,
+          "x": 361,
+          "y": 1324,
+          "w": 355,
+          "h": 59
+        },
+        {
+          "text": "os МАЛ Ы-КЕРАМИК",
+          "score": 84.6,
+          "conf": 54.0,
+          "x": 395,
+          "y": 1324,
+          "w": 321,
+          "h": 59
+        },
+        {
+          "text": "os МАЛ Ы-КЕРАМИК ИК",
+          "score": 84.6,
+          "conf": 54.0,
+          "x": 395,
+          "y": 1324,
+          "w": 321,
+          "h": 59
+        },
+        {
+          "text": "МАЛ Ы-КЕРАМИК",
+          "score": 84.6,
+          "conf": 91.0,
+          "x": 406,
+          "y": 1344,
+          "w": 310,
+          "h": 39
+        }
+      ],
       "status": "removed",
       "review": false,
       "output": "clean/VHF600229/08.jpg",
@@ -2617,7 +2654,35 @@
           "h": 17
         }
       ],
-      "unsure": [],
+      "unsure": [
+        {
+          "text": "АЛМАЛ Га",
+          "score": 83.3,
+          "conf": 41.0,
+          "x": 386,
+          "y": 1351,
+          "w": 154,
+          "h": 18
+        },
+        {
+          "text": "АЛМАЛ Га eee",
+          "score": 83.3,
+          "conf": 26.0,
+          "x": 386,
+          "y": 1351,
+          "w": 314,
+          "h": 28
+        },
+        {
+          "text": "АЛМАЛ Га eee lee",
+          "score": 83.3,
+          "conf": 26.0,
+          "x": 386,
+          "y": 1351,
+          "w": 314,
+          "h": 33
+        }
+      ],
       "status": "removed",
       "review": true,
       "output": "clean/VHF600249/04.jpg",
@@ -2669,7 +2734,17 @@
           "h": 16
         }
       ],
-      "unsure": [],
+      "unsure": [
+        {
+          "text": "АЛМАЛЫ-КЕРАМИК ЕЕ",
+          "score": 100.0,
+          "conf": 22.0,
+          "x": 382,
+          "y": 1237,
+          "w": 387,
+          "h": 146
+        }
+      ],
       "status": "removed",
       "review": false,
       "output": "clean/VHF600249/06.jpg",
@@ -2714,7 +2789,7 @@
         {
           "text": "АЛМАЛЫ-КЕРАМИК",
           "score": 100.0,
-          "conf": 87.0,
+          "conf": 88.0,
           "x": 391,
           "y": 1373,
           "w": 303,
@@ -2826,12 +2901,12 @@
       "source_sha256": "b511d0a81f7dc8c6c572dc89e6a60e6b0984ff1c8d0a0d7fb2ea7d49cc047c31",
       "hits": [
         {
-          "text": "ALMALY",
+          "text": "ALMALY CERAMIG",
           "score": 100.0,
           "conf": 92.0,
-          "x": 49,
+          "x": 50,
           "y": 59,
-          "w": 120,
+          "w": 312,
           "h": 13
         }
       ],
@@ -2846,29 +2921,38 @@
           "h": 101
         },
         {
-          "text": "ALMALY vw",
+          "text": "ALMALY gt ALMALY",
           "score": 100.0,
-          "conf": 32.0,
-          "x": 50,
+          "conf": 26.0,
+          "x": 49,
           "y": 59,
-          "w": 183,
-          "h": 147
+          "w": 201,
+          "h": 101
         },
         {
-          "text": "ALMALY vw CERAMIG",
-          "score": 80.0,
-          "conf": 32.0,
-          "x": 50,
+          "text": "gt ALMALY",
+          "score": 100.0,
+          "conf": 26.0,
+          "x": 49,
           "y": 59,
-          "w": 312,
-          "h": 147
+          "w": 201,
+          "h": 101
+        },
+        {
+          "text": "gt ALMALY CERAMIG",
+          "score": 92.3,
+          "conf": 26.0,
+          "x": 49,
+          "y": 59,
+          "w": 313,
+          "h": 101
         }
       ],
       "status": "removed",
       "review": false,
       "output": "clean/VHF600252/05.jpg",
-      "sha256": "7f535a0c1f746ac285c852b13f85148be29e94585a2ad7e707d7e72ef3c810cd",
-      "size_bytes": 276167,
+      "sha256": "e54d7a3ec3754808fe1c8c7a91cc78e49975063f93c37df4afe7d514a6d726bb",
+      "size_bytes": 276072,
       "thumb": "clean/VHF600252/05_t.jpg"
     },
     {
@@ -3297,31 +3381,21 @@
           "h": 13
         },
         {
-          "text": "АЛМАЛЫ",
+          "text": "АЛМАЛЫ КЕРАМИК",
           "score": 100.0,
-          "conf": 92.0,
+          "conf": 91.0,
           "x": 404,
           "y": 1325,
-          "w": 118,
+          "w": 279,
           "h": 17
         }
       ],
-      "unsure": [
-        {
-          "text": "БОЛЬШЕ, АЛМ АЛМ",
-          "score": 83.3,
-          "conf": 92.0,
-          "x": 392,
-          "y": 1325,
-          "w": 82,
-          "h": 42
-        }
-      ],
+      "unsure": [],
       "status": "removed",
       "review": false,
       "output": "clean/VHF600501/02.jpg",
-      "sha256": "04dfef72138437f83ec7477bacd9a4959a993e2f39f6e30e169c017655c2f056",
-      "size_bytes": 222111,
+      "sha256": "9a63042811e6e50559adfdfe06e2e82ea87a88453c284226780f3a1119ddd222",
+      "size_bytes": 222090,
       "thumb": "clean/VHF600501/02_t.jpg"
     },
     {
@@ -3403,7 +3477,7 @@
       "source_sha256": "e357d3850702b75275f448114c3e2c9347d1918cd865fc648e96090f1fddbd39",
       "hits": [
         {
-          "text": "АЛМАЛЫ KEPAMAK",
+          "text": "АЛМАЛЫ КЕРАМИК",
           "score": 100.0,
           "conf": 92.0,
           "x": 409,
@@ -3686,21 +3760,21 @@
           "h": 13
         },
         {
-          "text": "АЛМАЛЫ",
+          "text": "АЛМАЛЫ КЕРАМИК",
           "score": 100.0,
           "conf": 92.0,
-          "x": 400,
-          "y": 1327,
-          "w": 85,
-          "h": 26
+          "x": 403,
+          "y": 1329,
+          "w": 279,
+          "h": 17
         }
       ],
       "unsure": [],
       "status": "removed",
       "review": false,
       "output": "clean/VHF600503/04.jpg",
-      "sha256": "22fee50fa2deb2885852b428942e30f80860ae8a81acd2ace7fd4e540e084ceb",
-      "size_bytes": 255751,
+      "sha256": "60b7a91d0507ee71c01ffdf7f6ac7168a45c804aa30f6cd0b798209355279ffe",
+      "size_bytes": 255556,
       "thumb": "clean/VHF600503/04_t.jpg"
     },
     {
@@ -3721,31 +3795,21 @@
           "h": 14
         },
         {
-          "text": "АЛМАЛЫ",
+          "text": "АЛМАЛЫ КЕРАМИК",
           "score": 100.0,
           "conf": 92.0,
           "x": 403,
-          "y": 1342,
-          "w": 118,
-          "h": 16
+          "y": 1341,
+          "w": 278,
+          "h": 17
         }
       ],
-      "unsure": [
-        {
-          "text": "БОЛЬШЕ, АЛМ АЛМ",
-          "score": 83.3,
-          "conf": 91.0,
-          "x": 386,
-          "y": 1342,
-          "w": 85,
-          "h": 41
-        }
-      ],
+      "unsure": [],
       "status": "removed",
       "review": false,
       "output": "clean/VHF600503/05.jpg",
-      "sha256": "7b0de28fcc40794f7e5c0f106421c959663df8cb11cda9afef666269b6e7da56",
-      "size_bytes": 307489,
+      "sha256": "26a84a37e944ee53c6802a12ff2464ca3617759325d557de3f8577de59b54e33",
+      "size_bytes": 307497,
       "thumb": "clean/VHF600503/05_t.jpg"
     },
     {
@@ -3801,21 +3865,21 @@
           "h": 13
         },
         {
-          "text": "АЛМАЛЫ КЕРАМИК",
+          "text": "ws БОЛЬШ! АЛМАЛЫ",
           "score": 100.0,
-          "conf": 92.0,
-          "x": 402,
-          "y": 1338,
-          "w": 279,
-          "h": 17
+          "conf": 24.0,
+          "x": 351,
+          "y": 1331,
+          "w": 169,
+          "h": 47
         }
       ],
       "unsure": [],
       "status": "removed",
       "review": false,
       "output": "clean/VHF600503/07.jpg",
-      "sha256": "6c90477a85453be5b2d5096901046dafeffda279eceea2e4d6c1bacd0e66d4fc",
-      "size_bytes": 366845,
+      "sha256": "eb6e321d04c977785e3365ebeed771023b90cf730a2d6f6ee2cde972f6ee72e0",
+      "size_bytes": 364547,
       "thumb": "clean/VHF600503/07_t.jpg"
     },
     {
@@ -3883,28 +3947,28 @@
         {
           "text": "АЛМАЛЫ КЕРАМИК",
           "score": 100.0,
+          "conf": 89.0,
+          "x": 91,
+          "y": 32,
+          "w": 215,
+          "h": 14
+        },
+        {
+          "text": "АЛМАЛЫ КЕРАМИК",
+          "score": 100.0,
           "conf": 91.0,
           "x": 402,
           "y": 1347,
           "w": 277,
           "h": 17
-        },
-        {
-          "text": "АЛМАЛЫ",
-          "score": 100.0,
-          "conf": 89.0,
-          "x": 91,
-          "y": 32,
-          "w": 76,
-          "h": 14
         }
       ],
       "unsure": [],
       "status": "removed",
       "review": false,
       "output": "clean/VHF600801/01.jpg",
-      "sha256": "c4efba836bf5218d7aff4c5ee23e7b15419105f8e8e2240f3398909a3bfc976f",
-      "size_bytes": 299662,
+      "sha256": "783e2319795d2420c461fc87deeb06a12274a269c20591170cdb0938986d8bd3",
+      "size_bytes": 299610,
       "thumb": "clean/VHF600801/01_t.jpg"
     },
     {
@@ -3935,42 +3999,6 @@
         }
       ],
       "unsure": [
-        {
-          "text": "pas АЛМ SS АЛМАЛЫ",
-          "score": 100.0,
-          "conf": 26.0,
-          "x": 360,
-          "y": 1269,
-          "w": 144,
-          "h": 96
-        },
-        {
-          "text": "АЛМ SS АЛМАЛЫ",
-          "score": 100.0,
-          "conf": 26.0,
-          "x": 374,
-          "y": 1269,
-          "w": 130,
-          "h": 96
-        },
-        {
-          "text": "SS АЛМАЛЫ",
-          "score": 100.0,
-          "conf": 26.0,
-          "x": 396,
-          "y": 1269,
-          "w": 108,
-          "h": 91
-        },
-        {
-          "text": "Sh лм МАЛЫ КЕРАМИК",
-          "score": 84.6,
-          "conf": 43.0,
-          "x": 416,
-          "y": 1277,
-          "w": 275,
-          "h": 83
-        },
         {
           "text": "лм МАЛЫ КЕРАМИК",
           "score": 84.6,
@@ -4126,37 +4154,27 @@
           "text": "АЛМАЛЫ КЕРАМИК",
           "score": 100.0,
           "conf": 92.0,
+          "x": 88,
+          "y": 37,
+          "w": 217,
+          "h": 13
+        },
+        {
+          "text": "АЛМАЛЫ КЕРАМИК",
+          "score": 100.0,
+          "conf": 92.0,
           "x": 402,
           "y": 1343,
           "w": 284,
           "h": 17
-        },
-        {
-          "text": "АЛМАЛЫ",
-          "score": 100.0,
-          "conf": 92.0,
-          "x": 88,
-          "y": 39,
-          "w": 54,
-          "h": 6
         }
       ],
-      "unsure": [
-        {
-          "text": "АЛМ АЛМАЛЫ rs КЕРАМИК",
-          "score": 83.3,
-          "conf": 29.0,
-          "x": 80,
-          "y": 13,
-          "w": 225,
-          "h": 38
-        }
-      ],
+      "unsure": [],
       "status": "removed",
       "review": false,
       "output": "clean/VHF600801/05.jpg",
-      "sha256": "ca7af7447f8a84a93b928dbedf9c158454697d17ec82a348763bf5fd2be6f8f2",
-      "size_bytes": 321963,
+      "sha256": "28a8a1fc139a43b155aebef8fba676c1481dfb22f52ab038497b1dbfbcfc7eeb",
+      "size_bytes": 320531,
       "thumb": "clean/VHF600801/05_t.jpg"
     },
     {
@@ -5299,23 +5317,14 @@
           "y": 1348,
           "w": 282,
           "h": 17
-        },
-        {
-          "text": "АЛМАЛЫ",
-          "score": 100.0,
-          "conf": 36.0,
-          "x": 747,
-          "y": 791,
-          "w": 127,
-          "h": 32
         }
       ],
       "unsure": [],
       "status": "removed",
       "review": false,
       "output": "clean/VHF600850/07.jpg",
-      "sha256": "a316756730294608108edfe78642f75b914940a5e67ee7738e3d6f146d0282cc",
-      "size_bytes": 319943,
+      "sha256": "124fce1a2a81aed250a04d2335172e4ee7d98998a4dd6dbcba0d0ffea7a30ec8",
+      "size_bytes": 320894,
       "thumb": "clean/VHF600850/07_t.jpg"
     },
     {
@@ -5646,7 +5655,7 @@
       "source_sha256": "84c1f24bfab7000781f5691d487d41a1dc0507fa6fa20d14df5cb33a962a1989",
       "hits": [
         {
-          "text": "АЛМАЛЫ -КЕРАМИК",
+          "text": "АЛМАЛЫ КЕРАМИК",
           "score": 100.0,
           "conf": 90.0,
           "x": 401,
@@ -5928,8 +5937,8 @@
           "h": 34
         },
         {
-          "text": "ЛМАЛЫ",
-          "score": 90.0,
+          "text": "ЛМАЛЫ КЕРАМИК",
+          "score": 92.3,
           "conf": 92.0,
           "x": 89,
           "y": 32,
@@ -5938,87 +5947,6 @@
         }
       ],
       "unsure": [
-        {
-          "text": "an АЛМАЛЫ",
-          "score": 100.0,
-          "conf": 77.0,
-          "x": 69,
-          "y": 20,
-          "w": 84,
-          "h": 99
-        },
-        {
-          "text": "АЛМАЛЫ ipa",
-          "score": 100.0,
-          "conf": 31.0,
-          "x": 72,
-          "y": 20,
-          "w": 81,
-          "h": 89
-        },
-        {
-          "text": "АЛМАЛЫ ipa Pi",
-          "score": 100.0,
-          "conf": 31.0,
-          "x": 72,
-          "y": 20,
-          "w": 81,
-          "h": 127
-        },
-        {
-          "text": "АЛМАЛЫ ipa Pi Pi",
-          "score": 100.0,
-          "conf": 31.0,
-          "x": 72,
-          "y": 20,
-          "w": 81,
-          "h": 127
-        },
-        {
-          "text": "ipa Pi Pi ЛМАЛЫ",
-          "score": 83.3,
-          "conf": 31.0,
-          "x": 72,
-          "y": 32,
-          "w": 229,
-          "h": 115
-        },
-        {
-          "text": "Pi Pi ЛМАЛЫ",
-          "score": 83.3,
-          "conf": 50.0,
-          "x": 84,
-          "y": 32,
-          "w": 217,
-          "h": 115
-        },
-        {
-          "text": "Pi Pi ЛМАЛЫ ЛМАЛЫ",
-          "score": 83.3,
-          "conf": 50.0,
-          "x": 84,
-          "y": 32,
-          "w": 217,
-          "h": 115
-        },
-        {
-          "text": "Pi ЛМАЛЫ",
-          "score": 83.3,
-          "conf": 50.0,
-          "x": 84,
-          "y": 32,
-          "w": 217,
-          "h": 106
-        },
-        {
-          "text": "Pi ЛМАЛЫ ЛМАЛЫ",
-          "score": 83.3,
-          "conf": 50.0,
-          "x": 84,
-          "y": 32,
-          "w": 217,
-          "h": 106
-        },
         {
           "text": "ЛМАЛЫ ЛМАЛЫ",
           "score": 83.3,
@@ -7110,15 +7038,6 @@
       ],
       "unsure": [
         {
-          "text": "ETOH ETOH ALMALY",
-          "score": 100.0,
-          "conf": 47.0,
-          "x": 260,
-          "y": 38,
-          "w": 460,
-          "h": 122
-        },
-        {
           "text": "ETOH ALMALY",
           "score": 100.0,
           "conf": 67.0,
@@ -7232,17 +7151,7 @@
           "h": 38
         }
       ],
-      "unsure": [
-        {
-          "text": "LMALY LMA Ly CERAMIC",
-          "score": 83.3,
-          "conf": 86.0,
-          "x": 440,
-          "y": 1340,
-          "w": 226,
-          "h": 38
-        }
-      ],
+      "unsure": [],
       "status": "removed",
       "review": false,
       "output": "clean/VHF612503/04.jpg",
@@ -7268,21 +7177,31 @@
           "h": 12
         },
         {
-          "text": "ALMALY CERAMIC",
+          "text": "ot (pee AL ALMALY",
           "score": 100.0,
-          "conf": 91.0,
-          "x": 429,
-          "y": 1372,
-          "w": 224,
-          "h": 13
+          "conf": 31.0,
+          "x": 312,
+          "y": 1336,
+          "w": 211,
+          "h": 48
         }
       ],
-      "unsure": [],
+      "unsure": [
+        {
+          "text": "ALMALY ane CERAMIC",
+          "score": 81.2,
+          "conf": 20.0,
+          "x": 429,
+          "y": 1309,
+          "w": 224,
+          "h": 76
+        }
+      ],
       "status": "removed",
       "review": false,
       "output": "clean/VHF612503/05.jpg",
-      "sha256": "a6a44e45d9065f24abdbcb17b8d82c59997e69452e4cbd518ec07d1189bcfb72",
-      "size_bytes": 373212,
+      "sha256": "9135be137afeebe3bfb09c6b61586ec2c15abe411480cf4b29efe0f5eb1a3bdb",
+      "size_bytes": 372062,
       "thumb": "clean/VHF612503/05_t.jpg"
     },
     {
@@ -7305,7 +7224,7 @@
         {
           "text": "ALMALY",
           "score": 100.0,
-          "conf": 37.0,
+          "conf": 36.0,
           "x": 414,
           "y": 1362,
           "w": 108,
@@ -7329,15 +7248,6 @@
       "source_sha256": "e14c0f76a941b42a008c9a16034f4b6ae1549ddde17ff592983f0b60695cc3db",
       "hits": [
         {
-          "text": "ALMALY peut oar",
-          "score": 100.0,
-          "conf": 33.0,
-          "x": 379,
-          "y": 1334,
-          "w": 145,
-          "h": 44
-        },
-        {
           "text": "ALMALY",
           "score": 100.0,
           "conf": 91.0,
@@ -7345,14 +7255,23 @@
           "y": 34,
           "w": 90,
           "h": 11
+        },
+        {
+          "text": "ALMALY",
+          "score": 100.0,
+          "conf": 66.0,
+          "x": 379,
+          "y": 1343,
+          "w": 145,
+          "h": 22
         }
       ],
       "unsure": [],
       "status": "removed",
       "review": false,
       "output": "clean/VHF612503/07.jpg",
-      "sha256": "5eb099ca0958a89b6db3a91e5df3e575cdb380fed5183824ff77259a5032acbb",
-      "size_bytes": 358400,
+      "sha256": "337c13e49600f8bcafb7635538ebac3f06937829157d03d6b1dab2f8ee5417e4",
+      "size_bytes": 357921,
       "thumb": "clean/VHF612503/07_t.jpg"
     },
     {
@@ -7965,15 +7884,34 @@
       "tag": "cover",
       "source_url": "https://almaliceramicc.github.io/almaly-dealers/img/VHF612803/01.jpg",
       "source_sha256": "6f22ac17a9d4c16ee0ce97fe230fe8f5b064f7c450f696d07296fa1497e0f54b",
-      "hits": [],
-      "unsure": [],
-      "status": "no_brand",
-      "review": false,
-      "output": "https://almaliceramicc.github.io/almaly-dealers/img/VHF612803/01.jpg",
-      "sha256": "6f22ac17a9d4c16ee0ce97fe230fe8f5b064f7c450f696d07296fa1497e0f54b",
-      "size_bytes": 212315,
-      "thumb": "https://almaliceramicc.github.io/almaly-dealers/img/VHF612803/01_t.jpg",
-      "reused_source": true
+      "hits": [
+        {
+          "text": "АЛМАЛ",
+          "score": 90.0,
+          "conf": 91.0,
+          "x": 291,
+          "y": 1348,
+          "w": 178,
+          "h": 19
+        }
+      ],
+      "unsure": [
+        {
+          "text": "АЛМАЛ ANIMA",
+          "score": 83.3,
+          "conf": 27.0,
+          "x": 291,
+          "y": 1348,
+          "w": 178,
+          "h": 19
+        }
+      ],
+      "status": "removed",
+      "review": true,
+      "output": "clean/VHF612803/01.jpg",
+      "sha256": "174366b2ce6df37b69f08dd110f98164fb1b50ab086430d0aabb68f3e9b28190",
+      "size_bytes": 312729,
+      "thumb": "clean/VHF612803/01_t.jpg"
     },
     {
       "art": "VHF612803",
@@ -8591,11 +8529,11 @@
         {
           "text": "АЛМАЛЫ КЕРАМИК",
           "score": 100.0,
-          "conf": 81.0,
+          "conf": 91.0,
           "x": 60,
-          "y": 31,
+          "y": 27,
           "w": 239,
-          "h": 12
+          "h": 22
         },
         {
           "text": "АЛМАЛЫ-КЕРАМИК",
@@ -8611,8 +8549,8 @@
       "status": "removed",
       "review": false,
       "output": "clean/VHF612823/02.jpg",
-      "sha256": "405938da11161ea278922b1b70b4e1607a8366ff9cd8f91fde3601638dd7c099",
-      "size_bytes": 295524,
+      "sha256": "58e8474049dcdf0e49bf7493ebb890366bb5d828060ec04184f71e0689ea875b",
+      "size_bytes": 295269,
       "thumb": "clean/VHF612823/02_t.jpg"
     },
     {
@@ -9087,22 +9025,31 @@
       ],
       "unsure": [
         {
-          "text": "АЛМАЛЫ gee",
-          "score": 100.0,
-          "conf": 48.0,
-          "x": 376,
-          "y": 1213,
-          "w": 201,
-          "h": 171
-        },
-        {
-          "text": "АЛМАЛЫ gee sas",
+          "text": "ie АЛМАЛЫ",
           "score": 100.0,
           "conf": 35.0,
+          "x": 251,
+          "y": 1251,
+          "w": 262,
+          "h": 133
+        },
+        {
+          "text": "АЛМАЛЫ eS",
+          "score": 100.0,
+          "conf": 36.0,
           "x": 376,
-          "y": 1213,
-          "w": 201,
-          "h": 171
+          "y": 1250,
+          "w": 197,
+          "h": 134
+        },
+        {
+          "text": "АЛМАЛЫ eS -КЕРАМИК",
+          "score": 86.7,
+          "conf": 36.0,
+          "x": 376,
+          "y": 1250,
+          "w": 333,
+          "h": 134
         }
       ],
       "status": "removed",
@@ -9445,15 +9392,6 @@
       "source_sha256": "512726b0ddf0c323c1768ec5151d3cc51318a69b074ba2f6ca6190e6c4c8c537",
       "hits": [
         {
-          "text": "АЛМАЛЫ ЛМАЛЫ AN",
-          "score": 100.0,
-          "conf": 37.0,
-          "x": 98,
-          "y": 1371,
-          "w": 245,
-          "h": 32
-        },
-        {
           "text": "АЛМАЛЫ",
           "score": 100.0,
           "conf": 89.0,
@@ -9461,24 +9399,32 @@
           "y": 36,
           "w": 234,
           "h": 11
-        }
-      ],
-      "unsure": [
+        },
         {
-          "text": "Bat АЛМАЛЫ ЛМАЛЫ",
-          "score": 83.3,
-          "conf": 26.0,
+          "text": "АЛМАЛЫ",
+          "score": 100.0,
+          "conf": 58.0,
           "x": 98,
-          "y": 1350,
-          "w": 245,
-          "h": 53
+          "y": 1371,
+          "w": 85,
+          "h": 32
+        },
+        {
+          "text": "ЛМАЛЫ -КЕРАМИК",
+          "score": 92.3,
+          "conf": 71.0,
+          "x": 116,
+          "y": 1383,
+          "w": 227,
+          "h": 12
         }
       ],
+      "unsure": [],
       "status": "removed",
       "review": false,
       "output": "clean/VHFZ612810/07.jpg",
-      "sha256": "8d2fc1bcc95e60db65567dbbbdecb0104b64822e8312c547079f6c2635eb9022",
-      "size_bytes": 281021,
+      "sha256": "b22b1da54e2abb455c9c60c6372cfc6049befd6dfc88954d3fe41f6720a82bed",
+      "size_bytes": 281102,
       "thumb": "clean/VHFZ612810/07_t.jpg"
     },
     {
@@ -9490,15 +9436,6 @@
       "source_sha256": "d13c8fb1c0f457ee8288afcc2457a938ad9bb52a5ffc78bf12b8df97547e6088",
       "hits": [
         {
-          "text": "АЛМАЛЫ COBPEME",
-          "score": 100.0,
-          "conf": 90.0,
-          "x": 95,
-          "y": 33,
-          "w": 103,
-          "h": 65
-        },
-        {
           "text": "АЛМАЛЫ-КЕРАМИК",
           "score": 100.0,
           "conf": 86.0,
@@ -9506,9 +9443,45 @@
           "y": 1377,
           "w": 248,
           "h": 11
+        },
+        {
+          "text": "АЛМАЛЫ",
+          "score": 100.0,
+          "conf": 89.0,
+          "x": 95,
+          "y": 33,
+          "w": 238,
+          "h": 19
         }
       ],
       "unsure": [
+        {
+          "text": "АЛМАЛЫ АЛМАЛЫ aN",
+          "score": 100.0,
+          "conf": 35.0,
+          "x": 95,
+          "y": 33,
+          "w": 238,
+          "h": 99
+        },
+        {
+          "text": "АЛМАЛЫ aN КЕРАМИК",
+          "score": 100.0,
+          "conf": 35.0,
+          "x": 95,
+          "y": 33,
+          "w": 238,
+          "h": 99
+        },
+        {
+          "text": "АЛМАЛЫ aN КЕРАМИК",
+          "score": 86.7,
+          "conf": 35.0,
+          "x": 95,
+          "y": 33,
+          "w": 238,
+          "h": 99
+        },
         {
           "text": "АЛМ ПЫ -КЕРАМИК",
           "score": 84.6,
@@ -9522,8 +9495,8 @@
       "status": "removed",
       "review": false,
       "output": "clean/VHFZ612810/08.jpg",
-      "sha256": "b3b4df474e6eb705446ba2fc70c3082814cb86b817dfd8dc458af1ace9ed391f",
-      "size_bytes": 268984,
+      "sha256": "40445ddea9f6af606b879fb32bf0dbaffe3b553de035c19d782df57f12f19586",
+      "size_bytes": 269373,
       "thumb": "clean/VHFZ612810/08_t.jpg"
     },
     {
@@ -9961,24 +9934,6 @@
           "y": 25,
           "w": 148,
           "h": 99
-        },
-        {
-          "text": "ALMALI VINA",
-          "score": 100.0,
-          "conf": 29.0,
-          "x": 187,
-          "y": 1246,
-          "w": 168,
-          "h": 136
-        },
-        {
-          "text": "ALMALI VINA MALI",
-          "score": 100.0,
-          "conf": 29.0,
-          "x": 187,
-          "y": 1246,
-          "w": 168,
-          "h": 136
         }
       ],
       "status": "removed",
@@ -10170,15 +10125,6 @@
       ],
       "unsure": [
         {
-          "text": "РЕАЛЬНЫХ АЛМАЛЫ",
-          "score": 100.0,
-          "conf": 74.0,
-          "x": 273,
-          "y": 1254,
-          "w": 216,
-          "h": 157
-        },
-        {
           "text": "АЛМАЛ АЛМАЛ",
           "score": 83.3,
           "conf": 73.0,
@@ -10204,15 +10150,6 @@
           "y": 1385,
           "w": 153,
           "h": 16
-        },
-        {
-          "text": "АЛМАЛЫ MAN ЛИЦА",
-          "score": 100.0,
-          "conf": 43.0,
-          "x": 307,
-          "y": 1254,
-          "w": 195,
-          "h": 147
         }
       ],
       "status": "removed",
@@ -10947,15 +10884,6 @@
       "source_sha256": "5f43e53c9677970fdd3bbcd6854737dc05c4e2663a5da5022a10f1e29b83e067",
       "hits": [
         {
-          "text": "АЛМАЛЫ КЕРАМИК",
-          "score": 100.0,
-          "conf": 90.0,
-          "x": 107,
-          "y": 24,
-          "w": 197,
-          "h": 16
-        },
-        {
           "text": "АЛМАЛЫ-КЕРАМИК",
           "score": 100.0,
           "conf": 87.0,
@@ -10963,14 +10891,23 @@
           "y": 1331,
           "w": 345,
           "h": 25
+        },
+        {
+          "text": "АЛМАЛЫ",
+          "score": 100.0,
+          "conf": 92.0,
+          "x": 103,
+          "y": 22,
+          "w": 87,
+          "h": 18
         }
       ],
       "unsure": [],
       "status": "removed",
       "review": false,
       "output": "clean/VHJ600015/02.jpg",
-      "sha256": "6d4373cfaac6d9476ad1bac851873766c637af8b2da67139d0351ce35a14e8d1",
-      "size_bytes": 343824,
+      "sha256": "6e412ae9b3aa59e47327c64f1aa1395b816a3798c47c6c4187699952394b827b",
+      "size_bytes": 344490,
       "thumb": "clean/VHJ600015/02_t.jpg"
     },
     {
@@ -11264,6 +11201,24 @@
           "y": 112,
           "w": 380,
           "h": 23
+        },
+        {
+          "text": "АЛМАЛЫ-КЕРАМИ aN",
+          "score": 100.0,
+          "conf": 44.0,
+          "x": 341,
+          "y": 34,
+          "w": 379,
+          "h": 101
+        },
+        {
+          "text": "АЛМАЛЫ-КЕРАМИ aN LN",
+          "score": 92.3,
+          "conf": 30.0,
+          "x": 341,
+          "y": 34,
+          "w": 379,
+          "h": 101
         }
       ],
       "status": "removed",
@@ -11458,6 +11413,15 @@
       ],
       "unsure": [
         {
+          "text": "Sieger am ALMALI",
+          "score": 100.0,
+          "conf": 20.0,
+          "x": 170,
+          "y": 1278,
+          "w": 595,
+          "h": 170
+        },
+        {
           "text": "am ALMALI",
           "score": 100.0,
           "conf": 25.0,
@@ -11483,15 +11447,6 @@
           "y": 1356,
           "w": 186,
           "h": 25
-        },
-        {
-          "text": "ALMATY] MALI ie",
-          "score": 83.3,
-          "conf": 33.0,
-          "x": 453,
-          "y": 1211,
-          "w": 186,
-          "h": 170
         }
       ],
       "status": "removed",
@@ -12102,17 +12057,7 @@
           "h": 22
         }
       ],
-      "unsure": [
-        {
-          "text": "АЛЯСКА ^ЛЫ-КЕРАМИК",
-          "score": 80.0,
-          "conf": 80.0,
-          "x": 192,
-          "y": 42,
-          "w": 449,
-          "h": 165
-        }
-      ],
+      "unsure": [],
       "status": "removed",
       "review": false,
       "output": "clean/VHP600157/01.jpg",
@@ -12379,24 +12324,33 @@
           "h": 18
         },
         {
-          "text": "ЛМАЛЫ -КЕРАМИК",
-          "score": 92.3,
+          "text": "\\ЛМАЛЫ",
+          "score": 90.0,
           "conf": 58.0,
-          "x": 93,
-          "y": 30,
-          "w": 207,
-          "h": 13
+          "x": 86,
+          "y": 28,
+          "w": 83,
+          "h": 20
         }
       ],
       "unsure": [
         {
-          "text": "\\ЛМАЛЫ ЛМАЛЫ",
+          "text": "if Ay \\ЛМАЛЫ",
           "score": 83.3,
-          "conf": 58.0,
-          "x": 86,
+          "conf": 44.0,
+          "x": 0,
           "y": 28,
-          "w": 214,
-          "h": 20
+          "w": 169,
+          "h": 177
+        },
+        {
+          "text": "Ay \\ЛМАЛЫ",
+          "score": 90.0,
+          "conf": 44.0,
+          "x": 4,
+          "y": 28,
+          "w": 165,
+          "h": 177
         },
         {
           "text": "ЛМАЛЫ ЛМАЛЫ",
@@ -12411,8 +12365,8 @@
       "status": "removed",
       "review": false,
       "output": "clean/VHP600274/01.jpg",
-      "sha256": "e0899e9e72d7ab7cbde0495fbcb5baab1480ce12c9152aa4636cfda94ce8ac64",
-      "size_bytes": 206774,
+      "sha256": "d08161c4c90624a8b500d4a16621a13ddb9c2230581ee9cfddf16c0aa5c0d36a",
+      "size_bytes": 206822,
       "thumb": "clean/VHP600274/01_t.jpg"
     },
     {
@@ -12590,13 +12544,13 @@
       "source_sha256": "288595b1f8d9dc544d9e41d7e365a47a73cd732e42136e4cc0f50898ad74e151",
       "hits": [
         {
-          "text": "АЛМАЛЫ.КЕРАМИК",
+          "text": "АЛМАЛЫ: КЕРАМИК",
           "score": 100.0,
-          "conf": 22.0,
+          "conf": 73.0,
           "x": 399,
-          "y": 1345,
+          "y": 1341,
           "w": 290,
-          "h": 16
+          "h": 30
         },
         {
           "text": "АЛМАЛЫ",
@@ -12612,8 +12566,8 @@
       "status": "removed",
       "review": false,
       "output": "clean/VHP600274/07.jpg",
-      "sha256": "f8204fb3ebaa73d9ad8fe7c8ccdd376264709d07a4c7fe8353cf6042d249dfd3",
-      "size_bytes": 299782,
+      "sha256": "5fd6b47571281463a01718ff96f10a6e6dd22d0b77adb53c04feefee06d960b8",
+      "size_bytes": 300099,
       "thumb": "clean/VHP600274/07_t.jpg"
     },
     {
@@ -12645,12 +12599,21 @@
       ],
       "unsure": [
         {
-          "text": "АЛМ АЛМАЛЫ: KE",
+          "text": "АЛМ АЛМАЛЫ: ATM",
           "score": 83.3,
-          "conf": 29.0,
+          "conf": 47.0,
           "x": 398,
           "y": 1340,
-          "w": 185,
+          "w": 131,
+          "h": 30
+        },
+        {
+          "text": "АЛМ АЛМАЛЫ: ATM AS)",
+          "score": 83.3,
+          "conf": 47.0,
+          "x": 398,
+          "y": 1340,
+          "w": 131,
           "h": 30
         }
       ],
@@ -12808,7 +12771,7 @@
         {
           "text": "АЛМАЛЫ-КЕРАМИК",
           "score": 100.0,
-          "conf": 84.0,
+          "conf": 85.0,
           "x": 382,
           "y": 1361,
           "w": 322,
@@ -12905,21 +12868,21 @@
       ],
       "unsure": [
         {
-          "text": "ae “Es АЛМ АЛМАЛЫ -КЕРАМИК",
+          "text": "ВР ae АЛМ АЛМАЛЫ -КЕРАМИК",
           "score": 100.0,
-          "conf": 40.0,
-          "x": 260,
-          "y": 1240,
-          "w": 441,
-          "h": 142
+          "conf": 37.0,
+          "x": 163,
+          "y": 1246,
+          "w": 538,
+          "h": 136
         },
         {
-          "text": "“Es АЛМ АЛМАЛЫ -КЕРАМИК",
+          "text": "ae АЛМ АЛМАЛЫ -КЕРАМИК",
           "score": 100.0,
-          "conf": 40.0,
-          "x": 291,
-          "y": 1240,
-          "w": 410,
+          "conf": 41.0,
+          "x": 260,
+          "y": 1246,
+          "w": 441,
           "h": 136
         }
       ],
@@ -13526,7 +13489,7 @@
         {
           "text": "АЛМАЛЫ-КЕРАМИК en",
           "score": 100.0,
-          "conf": 52.0,
+          "conf": 27.0,
           "x": 368,
           "y": 71,
           "w": 350,
@@ -14197,7 +14160,17 @@
           "h": 20
         }
       ],
-      "unsure": [],
+      "unsure": [
+        {
+          "text": "(\\N\\J/2Q АЛМАЛЫ-КЕРАМИК",
+          "score": 100.0,
+          "conf": 27.0,
+          "x": 260,
+          "y": 40,
+          "w": 460,
+          "h": 120
+        }
+      ],
       "status": "removed",
       "review": false,
       "output": "clean/VHP600822/03.jpg",
@@ -14665,13 +14638,13 @@
       ],
       "unsure": [
         {
-          "text": "'АЛМАЛЫ-КЕРАМИК al",
+          "text": "'АЛМАЛЫ-КЕРАМИК on",
           "score": 100.0,
-          "conf": 23.0,
+          "conf": 22.0,
           "x": 347,
           "y": 1334,
-          "w": 463,
-          "h": 106
+          "w": 473,
+          "h": 90
         }
       ],
       "status": "removed",
@@ -14834,13 +14807,22 @@
       ],
       "unsure": [
         {
-          "text": "сть АЛМАЛЫ-КЕРАМИК",
-          "score": 100.0,
-          "conf": 57.0,
-          "x": 260,
-          "y": 1297,
-          "w": 471,
-          "h": 122
+          "text": "АЛМА АЛМА -КЕРАМИК",
+          "score": 80.0,
+          "conf": 91.0,
+          "x": 349,
+          "y": 1396,
+          "w": 382,
+          "h": 22
+        },
+        {
+          "text": "АЛМА -КЕРАМИК",
+          "score": 84.6,
+          "conf": 92.0,
+          "x": 349,
+          "y": 1396,
+          "w": 382,
+          "h": 22
         }
       ],
       "status": "removed",
@@ -14981,13 +14963,13 @@
       "source_sha256": "63abe3bfa9d97fd706313543b72edefc0b291ea08f931c3f91f643b02e6beaee",
       "hits": [
         {
-          "text": "АЛМАЛЫ-КЕРА мы",
+          "text": "АЛМАЛЫ-КЕРА bl",
           "score": 100.0,
-          "conf": 27.0,
+          "conf": 75.0,
           "x": 346,
-          "y": 1295,
+          "y": 1357,
           "w": 364,
-          "h": 77
+          "h": 15
         }
       ],
       "unsure": [
@@ -15010,29 +14992,20 @@
           "h": 48
         },
         {
-          "text": "АЛМ. АЛМ AN",
+          "text": "АЛМ АЛМАЛЫ-КЕРА",
           "score": 83.3,
-          "conf": 47.0,
+          "conf": 90.0,
           "x": 345,
           "y": 1356,
-          "w": 107,
+          "w": 365,
           "h": 17
-        },
-        {
-          "text": "АЛМАЛЫ-КЕРА мы MASH",
-          "score": 84.6,
-          "conf": 27.0,
-          "x": 346,
-          "y": 1295,
-          "w": 364,
-          "h": 77
         }
       ],
       "status": "removed",
       "review": false,
       "output": "clean/VHP612037/04.jpg",
-      "sha256": "5ef318f7cb51b63977e5be93b1c76e97d5d5e9bdbb0b5c80473f908ef08f8484",
-      "size_bytes": 265891,
+      "sha256": "1f4263fbe25fb8fca6f11c8b349d2eacfb95c7ce655c3cc95ce22a00e74f9812",
+      "size_bytes": 268556,
       "thumb": "clean/VHP612037/04_t.jpg"
     },
     {
@@ -16234,17 +16207,7 @@
           "h": 17
         }
       ],
-      "unsure": [
-        {
-          "text": "АЛМАЛЫ-КЕРАМИК Wa",
-          "score": 100.0,
-          "conf": 48.0,
-          "x": 105,
-          "y": 19,
-          "w": 252,
-          "h": 94
-        }
-      ],
+      "unsure": [],
       "status": "removed",
       "review": false,
       "output": "clean/VHP612441/01.jpg",
@@ -16270,17 +16233,7 @@
           "h": 20
         }
       ],
-      "unsure": [
-        {
-          "text": "Zt АЛМАЛЫ-КЕРАМИК",
-          "score": 100.0,
-          "conf": 30.0,
-          "x": 633,
-          "y": 0,
-          "w": 347,
-          "h": 117
-        }
-      ],
+      "unsure": [],
       "status": "removed",
       "review": false,
       "output": "clean/VHP612441/02.jpg",
@@ -16864,7 +16817,7 @@
         {
           "text": "АЛМАЛЫ-КЕРАМИК",
           "score": 100.0,
-          "conf": 91.0,
+          "conf": 89.0,
           "x": 350,
           "y": 1367,
           "w": 480,
@@ -17510,21 +17463,21 @@
       "source_sha256": "f696c2aa603bf3749bed7254f6d71100dc3299f54ef0e8589b5d99d55ce355ed",
       "hits": [
         {
-          "text": "АЛМАЛЫ",
+          "text": "АЛМАЛЫ KP ERP ик",
           "score": 100.0,
-          "conf": 90.0,
+          "conf": 23.0,
           "x": 349,
-          "y": 1353,
-          "w": 208,
-          "h": 16
+          "y": 1349,
+          "w": 494,
+          "h": 29
         }
       ],
       "unsure": [],
       "status": "removed",
       "review": false,
       "output": "clean/VHR612004/07.jpg",
-      "sha256": "48653769a1a430f446020468ba3f0c036a1264b87499f6291a1b0d684eb4a561",
-      "size_bytes": 235688,
+      "sha256": "0a0773d4c71efe4bc4be2a535d97dd888d41d83518bbf2f790d90d7f3bc24b20",
+      "size_bytes": 234730,
       "thumb": "clean/VHR612004/07_t.jpg"
     },
     {

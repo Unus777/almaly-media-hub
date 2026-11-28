@@ -1,0 +1,54 @@
+name: Поток B — стереть название бренда
+
+# Берёт кадры потока A из seed-catalog.json, находит «Алмалы» / Almaly
+# и записывает очищенные кадры потока B в clean/ плюс отчёт reports/.
+# Повторный запуск на тех же исходниках безопасен: коммит с меткой
+# [brand-clean] не запускает workflow ещё раз.
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [gh-pages]
+    paths:
+      - seed-catalog.json
+      - scripts/strip_brand.py
+      - scripts/requirements.txt
+
+permissions:
+  contents: write
+
+jobs:
+  strip-brand:
+    if: ${{ !contains(github.event.head_commit.message, '[brand-clean]') }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Tesseract rus+eng
+        run: sudo apt-get update && sudo apt-get install -y tesseract-ocr tesseract-ocr-rus tesseract-ocr-eng
+
+      - name: Зависимости
+        run: pip install -r scripts/requirements.txt
+
+      - name: Проверка сопоставления
+        run: python scripts/test_strip_brand.py
+
+      - name: Очистить поток B
+        run: python scripts/strip_brand.py --workers 4
+
+      - name: Закоммитить очищенные кадры
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add clean reports seed-catalog.json
+          if git diff --cached --quiet; then
+            echo "Изменений нет"
+            exit 0
+          fi
+          git commit -m "Обновить поток B: стереть Алмалы/Almaly [brand-clean]"
+          git push
